@@ -1,0 +1,174 @@
+body{
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 100%;
+
+}
+.cabecalho{
+    position: fixed;
+    background-color: #CF2B2B;
+    top: 0px;
+    left: 0px;
+    height: 92px;
+    width: 100%;
+    z-index: 2;
+}
+.cabecalho h1{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.cabecalho h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.tudo{
+    margin-top: 92px;
+}
+.titulo{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.titulo1{
+    margin-top: 122px;
+}
+.bloco1{
+    background-color: red;
+}
+.pratos, .bebidas, .sobremesas{
+    
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+.sobremesas{
+    margin-bottom: 100px;
+}
+.prato{  
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    background-color: white;
+    width: 172px;
+    height: 216px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+    padding: 15px 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+ion-icon {
+        display:none ;
+        font-size: 25px;
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+        left: 50px;
+        color: green;    
+}
+.prato-clicado ion-icon, .bebida-clicada ion-icon, .sobremesas-clicada ion-icon {
+    display: inline;
+}
+
+.foto {
+    width: 144px;
+    height: 87px;
+    margin-left: 5px;
+    margin-right: 7px;
+    margin-top: 2px;
+}
+.nomeproduto, .descricao, .preco{
+    margin-left: 13px;
+    margin-top: 5px;
+}
+.nomeproduto{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+.descricao{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A6A6A6;
+}
+.preco{
+    position:absolute;
+    bottom: 15px;
+}
+.prato-clicado, .bebida-clicada, .sobremesas-clicada  {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25),
+    inset 0px 0px 0px 5px #32b72f;
+}
+
+.finalizar{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 92px;
+    background-color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    z-index: 2;
+}
+.finalizar2{
+    background-color: #CBCBCB;
+    border-radius: 50px;
+    height: 61px;
+    width: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 3;
+}
+.finalizar3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    background-color: #CBCBCB;
+    width: 80%;
+    text-align: center;
+
+}
+.finalizar4{
+    background-color: #32B72F;
+    border-radius: 50px;
+    height: 61px;
+    width: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:5;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.finalizar5{
+    display: none;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<title>DrivenEats</title>
+</head>
+<body>
+    <div class="cabecalho"> 
+        <h1><strong>DrivenEats</strong></h1>
+        <h2>Sua comida em 6 minutos</h2>
+    </div>
+    <div class="container"></div>
+    <div class="tudo"></div>
+        <div class="titulo">
+            <h1>Primeiro, seu prato</h1>
+        </div>
+        <div class="pratos">
+            <div onclick="bordaprato(this)" class="prato" >
+                <img src="./img/frango_yin_yang 1.png" class="foto"/>
+                <p class="nomeproduto">Frango Yin Yang</p>
+                <p class="descricao">Um pouco de batata, um pouco de salada</p>
+                <p class="preco">R$ 14,90</p>
+                <ion-icon name="checkmark-circle"></ion-icon>
+            </div>
+            <div onclick="bordaprato(this)" class="prato" >
+                <img src="./img/merlin_199880391_6b3e1609-90ee-4791-b156-510bc6b9876b-master768.jpeg" class="foto"/>
+                <p class="nomeproduto">yakisoba</p>
+                <p class="descricao">macarrão chines com legumes</p>
+                <p class="preco">R$ 34,90</p>
+                <ion-icon name="checkmark-circle"></ion-icon>
+            </div>
+            <div onclick="bordaprato(this)" class="prato" >
+                <img src="./img/depositphotos_28956831-stock-photo-japanese-food-temaki.jpeg" class="foto"/>
+                <p class="nomeproduto">Temaki</p>
+                <p class="descricao">Peixe laminado com arroz japones</p>
+                <p class="preco">R$ 18,90</p>
+                <ion-icon name="checkmark-circle"></ion-icon>
+            </div>
+        </div>
+        <div class="titulo">
+            <h1>Agora, sua bebida</h1>
+        </div>
+        <div class="bebidas">
+            <div onclick="bordabebida(this)" class="prato" >
+                <img src="./img/download.jpeg" class="foto"/>
+                <p class="nomeproduto">Água mineral</p>
+                <p class="descricao">se hidrate</p>
+                <p class="preco">R$ 1,99</p>
+                <ion-icon name="checkmark-circle"></ion-icon>
+            </div>
+            <div onclick="bordabebida(this)" class="prato" >
+                <img src="./img/cc.jpeg" class="foto"/>
+                <p class="nomeproduto">Coca-Cola</p>
+                <p class="descricao">Geladinha igual o coração da morena</p>
+                <p class="preco">R$ 4,90</p>
+                <ion-icon name="checkmark-circle"></ion-icon>
+            </div>
+            <div onclick="bordabebida(this)" class="prato" >
+                <img src="./img/agua-torneira-1601073968912_v2_615x300.jpeg" class="foto"/>
+                <p class="nomeproduto">Água da torneira</p>
+                <p class="descricao">Não filtrada de procedencia duvidosa</p>
+                <p class="preco">R$ 0,90</p>
+                <ion-icon name="checkmark-circle"></ion-icon>
+            </div>
+        </div>
+        <div class="titulo">
+            <h1>Por fim, sua sobremesa</h1>
+        </div>
+        <div class="sobremesas">
+            <div onclick="bordasobremesas(this)" class="prato" >
+                <img src="./img/download (1).jpeg" class="foto"/>
+                <p class="nomeproduto">Kit-kat</p>
+                <p class="descricao">Para adoçicar a vida</p>
+                <p class="preco">R$ 3.90</p>
+                <ion-icon name="checkmark-circle"></ion-icon>
+            </div>
+            <div onclick="bordasobremesas(this)" class="prato" >
+                <img src="./img/sorvete.jpeg" class="foto"/>
+                <p class="nomeproduto">Sorvetin</p>
+                <p class="descricao">Quase uma casquinha do mc</p>
+                <p class="preco">R$ 2.90</p>
+                <ion-icon name="checkmark-circle"></ion-icon>
+            </div>
+            <div onclick="bordasobremesas(this)" class="prato" >
+                <img src="./img/brigadeiro.jpeg" class="foto"/>
+                <p class="nomeproduto">brigadeiro</p>
+                <p class="descricao">O chocolate que tem gosto de lar</p>
+                <p class="preco">R$ 2.90</p>
+                <ion-icon name="checkmark-circle"></ion-icon>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="finalizar">
+        <div class="finalizar2 ">
+            <div class="finalizar3"><h2>Selecione os 3 itens</h2> <h2>para fechar o pedido</h2>
+            </div>
+            </div>
+            <button onclick="enviarmsg()" class="finalizar4 finalizar5"><h2>FECHAR PEDIDO</h2></button>
+    </div>
+
+    
+    
+
+<script src="scripts.js"></script>
+<script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+</body>
+</html>
